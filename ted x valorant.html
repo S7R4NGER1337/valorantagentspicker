@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css.css" />
+    <title>Valorant Agents</title>
+  </head>
+
+  <body>
+    <main id="main">
+      <div id="container">
+        <div class="profile">
+          <img src="./iconProfile2.png" class="user1Icon" />
+          <label>Lock</label>
+          <input type="radio" name="user1Locked" value="lock" checked />
+          <label>Unlock</label>
+          <input type="radio" name="user1Locked" value="unlock" /><br />
+          <div class="first-agents hidden" data-section="agents-pick"></div>
+          <button type="button" id="agent1button">Show more</button>
+        </div>
+
+        <div class="profile">
+          <img src="./iconProfile2.png" class="user2Icon" />
+          <label>Lock</label>
+          <input type="radio" name="user2Locked" value="lock" checked />
+          <label>Unlock</label>
+          <input type="radio" name="user2Locked" value="unlock" /><br />
+          <div class="first-agents hidden" data-section="agents-pick"></div>
+          <button type="button" id="agent2button">Show more</button>
+        </div>
+
+        <div class="profile">
+          <img src="./iconProfile2.png" class="user3Icon" />
+          <label>Lock</label>
+          <input type="radio" name="user3Locked" value="lock" checked />
+          <label>Unlock</label>
+          <input type="radio" name="user3Locked" value="unlock" /><br />
+          <div class="first-agents hidden" data-section="agents-pick"></div>
+          <button type="button" id="agent3button">Show more</button>
+        </div>
+
+        <div class="profile">
+          <img src="./iconProfile2.png" class="user4Icon" />
+          <label>Lock</label>
+          <input type="radio" name="user1Locked" value="lock" checked />
+          <label>Unlock</label>
+          <input type="radio" name="user1Locked" value="unlock" /><br />
+          <div class="first-agents hidden" data-section="agents-pick"></div>
+          <button type="button" id="agent4button">Show more</button>
+        </div>
+
+        <div class="profile">
+          <img src="./iconProfile2.png" class="user5Icon" />
+          <label>Lock</label>
+          <input type="radio" name="user1Locked" value="lock" checked />
+          <label>Unlock</label>
+          <input type="radio" name="user1Locked" value="unlock" /><br />
+          <div class="first-agents hidden" data-section="agents-pick"></div>
+          <button type="button" id="agent5button">Show more</button>
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+    <script>
+      window.onload = lockedProfile();
+    </script>
+  </body>
+</html>
